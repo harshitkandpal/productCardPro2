@@ -1,0 +1,65 @@
+
+/* Given style */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* centered the item and added background colour*/
+body{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F4EAD5;
+}
+
+
+.text{
+    padding: 0.8rem 0;
+    letter-spacing: 5px;
+    font-size:x-small;
+    font-weight: 700;
+    color:#7B8FA1;
+}
+.card-body{
+    padding: 1rem 2rem;
+}
+.card-title{
+    font-weight: bold;
+    font-family: serif;
+    font-size:35px ;
+}
+.card-text{
+    color: #7B8FA1;
+}
+.price{
+    color: #1F8A70;
+    font-size:x-large;
+    font-weight: bold;
+    font-family: Fraunces;
+}
+
+
+/* stricked the old-price */
+.old-price{
+    text-decoration: line-through;
+    color: #7B8FA1;
+}
+
+
+/* send different card to mobile users */
+@media only screen and (max-width:700px){
+    .card {
+        display: block !important;
+        width: 22.4rem !important;
+        flex:none !important;
+      }
+}
+
+
+.but{
+    display: inline-block
+}
